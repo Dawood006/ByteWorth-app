@@ -5,7 +5,7 @@ import pandas as pd
 import warnings
 warnings.filterwarnings('ignore')
 
-with open("https://github.com/Dawood006/Laptop-Price-Benchmark-App/blob/main/RF_model/laptop_randomf_model.pkl", "rb") as file:
+with open(https://github.com/Dawood006/Laptop-Price-Benchmark-App/blob/main/RF_model/laptop_randomf_model.pkl, "rb") as file:
     model = pickle.load(file)
 
 
