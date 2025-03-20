@@ -88,6 +88,8 @@ urllib3==2.2.3
 voila==0.5.8
 wcwidth==0.2.13
 streamlit==1.15.0
+pip==21.3.1
+
 
 webcolors==24.11.1
 webencodings==0.5.1
