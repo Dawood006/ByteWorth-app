@@ -8,7 +8,7 @@ import urllib.request
 
 
 
-url = "https://github.com/Dawood006/ByteWorth-app/blob/f8879025ec7de8ad8373e6d976d7b4942b00deb4/RF_model/laptop_randomf_model.pkl"
+url = "https://raw.githubusercontent.com/Dawood006/ByteWorth-app/RF_model/laptop_randomf_model.pkl"
 model_path = "laptop_randomf_model.pkl"
 
 # Download model file
