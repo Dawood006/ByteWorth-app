@@ -7,8 +7,14 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Load the trained model
-with open(r"C:\Users\hp\OneDrive\Desktop\jupyter\laptop_pred_new.pkl", "rb") as file:
+url = "https://github.com/Dawood006/ByteWorth-app/raw/950e6900c670862d1415bbb625bf27e55e5f2780/RF_model/laptop_randomf_model.pkl"
+model_path = "laptop_randomf_model.pkl"
+
+# Download model file
+urllib.request.urlretrieve(url, model_path)
+with open(model_path, "rb") as file:
     model = pickle.load(file)
+
 
 st.title('*Laptop Price Prediction*💻')
 
