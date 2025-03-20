@@ -4,11 +4,15 @@ import streamlit as st
 import pandas as pd
 import warnings
 warnings.filterwarnings('ignore')
-
-with open("laptop_randomf_model.pkl", "rb") as file:
-    model = pickle.load(file)
+import urllib.request
 
 
+
+url = "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPO/main/laptop_randomf_model.pkl"
+model_path = "laptop_randomf_model.pkl"
+
+# Download model file
+urllib.request.urlretrieve(url, model_path)
 
 #Styling
 st.markdown(
