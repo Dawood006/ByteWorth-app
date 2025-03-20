@@ -7,7 +7,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Load the trained model
-url = "https://github.com/Dawood006/ByteWorth-app/raw/950e6900c670862d1415bbb625bf27e55e5f2780/RF_model/laptop_randomf_model.pkl"
+url = "https://github.com/Dawood006/ByteWorth-app/raw/62bc838167d70645c696f93246e626a618d3b268/Linear%20model/laptop_linear.pkl"
 model_path = "laptop_randomf_model.pkl"
 
 # Download model file
