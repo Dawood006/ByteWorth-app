@@ -23,7 +23,7 @@ st.markdown(
     <style>
     .main { background-color: #002147; } /* Deep Royal Blue */
     h1 { color: #FFD700; text-align: center; } /* Gold */
-    .stSelectbox label, .stCheckbox label, .stNumberInput label { color: #FFFFFF; } /* White */
+    .stSelectbox label, .stCheckbox label, .stNumberInput label { color: #FFD700; } /* White */
     .stButton button { background-color: #8A2BE2; color: white; font-size: 18px; } /* Purple */
 ,   </style>
 '''
