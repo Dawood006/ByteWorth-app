@@ -5,6 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import warnings
 warnings.filterwarnings('ignore')
+import urllib
 
 # Load the trained model
 url = "https://github.com/Dawood006/ByteWorth-app/raw/62bc838167d70645c696f93246e626a618d3b268/Linear%20model/laptop_linear.pkl"
