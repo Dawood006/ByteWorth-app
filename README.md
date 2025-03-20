@@ -66,7 +66,7 @@ This app implements a **Linear Regression** model for price prediction. However,
 
 📌 **Directory:** `Web Scrape/`  
 
-A web scraping tool is included to gather real-world laptop pricing data for model training and updates.
+A web scraping tool is included to gather real-world laptop pricing data for model training and updates from [Flipkart](www.flipkart.com)🛒
 
 **Key Files:**
 - `web_scrape.py` → Python script to extract laptop pricing data.
