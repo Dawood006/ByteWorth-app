@@ -34,7 +34,7 @@ st.markdown(
 st.title("💻 Laptop Price Prediction")
 
 # Layout for Inputs
-st.markdown("### Select Laptop Features")
+st.caption("### Select Laptop Features")
 col1, col2, col3 = st.columns(3)
 
 # Brand Selection
